@@ -5,25 +5,33 @@
 }
 
 body {
-    background-image: url(green-background.jpg);
+    background-image: url(blue-background.jpg);
     background-size: cover;
     background-color: #cccccc;
+    margin: 0px auto;
+    width: 900px;
     padding: 20px;
     max-width: 100%;
 }
 
 img {
     max-width: 100%;
+    border-radius: 10px;
+    justify-content: center;
 }
 
 .image {
     margin-bottom: 20px;
+    margin: 0 auto;
+    object-fit: auto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    background-color: ghostwhite;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .main-nav a {
@@ -32,13 +40,24 @@ img {
 
 .main-nav {
     list-style: none;
+    margin-top: 10px;
 }
 
+@media screen and (min-width: 800px)
+{
+    .container {
+        display: flex;
+    }
+    .image {
+        width: 50%;
+        padding-right: 20px;
+    }
+    .about {
+        width: 50%;
+    }
+}
 p {
-    padding: 10px;
-}
-
-.header {
+    padding: 5px;
 }
 
 
