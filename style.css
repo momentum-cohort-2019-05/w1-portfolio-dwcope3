@@ -5,41 +5,38 @@
 }
 
 body {
-    background-color: lightskyblue
+    padding: 20px;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    margin-bottom: 20px;
 }
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
     margin: 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
 }
 
 .main-nav {
     list-style: none;
 }
 
-
-.main-nav-list {
-    list-style: none;
-    margin-left: 20px;
-    display: flex;
+p {
+    padding: 10px;
 }
 
-.main-content {
-    display:flex;
+.header {
+    background-color: paleturquoise
 }
 
-.left-sidebar {
-    width: 25%
-}
-
-.self-image {
-    max-width: 100%;
-}
-.right-sidebar {
-    width: 75%
-}
-.page-container {
-    margin: 15px;
-}
 
