@@ -5,7 +5,9 @@
 }
 
 body {
-    background-image:"structure-wood-texture-floor-number-building-1284443-pxhere.com (1).jpg"
+    background-image: url(wood-background.jpg);
+    background-size: cover;
+    background-color: #cccccc;
     padding: 20px;
     max-width: 100%;
 }
