@@ -24,6 +24,7 @@ img {
     margin-bottom: 20px;
     margin: 0 auto;
     object-fit: auto;
+    max-width: 65%;
 }
 
 .gss-image {
@@ -40,6 +41,9 @@ img {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
+}
+.header h1 {
+    font-family: monospace;
 }
 .projects-header {
     text-align: center;
@@ -74,6 +78,10 @@ details summary::-webkit-details-marker {
 
 .about {
     margin-top: 20px;
+    color: white;
+}
+.about p {
+    font-size: 150%;
 }
 
 .gss-container {
@@ -83,8 +91,9 @@ details summary::-webkit-details-marker {
     border-radius: 5px;
     padding: 20px;
 }
-.gss-about {
-    
+.gss-links {
+    text-align: center;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 800px)
