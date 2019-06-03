@@ -96,6 +96,47 @@ details summary::-webkit-details-marker {
     margin-top: 20px;
 }
 
+.resume-container {
+    background-color: rgba(248, 248, 255, .25);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.resume-container ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.resume-employment {
+    margin-top: 30px;
+}
+
+.resume-contact h3 {
+    margin-top: 20px;
+}
+.resume-contact p {
+    padding: 0px;
+}
+.resume-tag {
+    margin-top: 10px;
+}
+
+.centro {
+    margin-top: 20px;
+}
+
+.us-foods {
+    margin-top: 30px;
+}
+
+.education {
+    margin-top: 30px;
+}
+.education li {
+    list-style: none;
+    margin-top: 5px;    
+}
+
 @media screen and (min-width: 800px)
 {
     .container {
@@ -120,6 +161,17 @@ details summary::-webkit-details-marker {
     }
     .gss-about {
         width: 50%;
+    }
+    .job-date {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    .education-date {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
     }
 }
 p {
